@@ -7,4 +7,4 @@ bus.use(bus.correlate());
 bus.use(bus.logger());
 bus.use(bus.retry());
 
-Meteor.Bus = bus;
+this.Bus = bus;
