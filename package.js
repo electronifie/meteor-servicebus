@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Distrubuted service communication via servicebus architecture",
-  version: "0.0.4",
+  version: "0.0.5",
   git: "https://github.com/electronifie/meteor-servicebus.git"
 });
 
