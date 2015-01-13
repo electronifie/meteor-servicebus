@@ -5,7 +5,7 @@ Package.describe({
 });
 
 Npm.depends({
-  "servicebus": "1.0.0-rc5"
+  "servicebus": "1.0.0-rc6"
 });
 
 Package.onUse(function(api) {
