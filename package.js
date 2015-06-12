@@ -1,11 +1,11 @@
 Package.describe({
   summary: "Distrubuted service communication via servicebus architecture",
-  version: "0.0.7",
+  version: "0.0.8",
   git: "https://github.com/electronifie/meteor-servicebus.git"
 });
 
 Npm.depends({
-  "servicebus": "1.0.15"
+  "servicebus": "1.0.17"
 });
 
 Package.onUse(function(api) {
