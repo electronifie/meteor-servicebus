@@ -1,6 +1,7 @@
 Package.describe({
+  name: "electronifiejs:servicebus",
   summary: "Distrubuted service communication via servicebus architecture",
-  version: "0.0.10",
+  version: "1.0.17",
   git: "https://github.com/electronifie/meteor-servicebus.git"
 });
 
@@ -9,12 +10,11 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.addFiles('electronifiejs:servicebus.js', 'server');
+  api.addFiles('server/servicebus.js', 'server');
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('electronifiejs:servicebus');
-  api.addFiles('electronifiejs:servicebus-tests.js', 'server');
 });
 
