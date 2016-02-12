@@ -1,15 +1,16 @@
 Package.describe({
   name: "electronifiejs:servicebus",
-  summary: "Distrubuted service communication via servicebus architecture",
-  version: "1.0.17",
+  summary: "Distributed service communication via servicebus architecture",
+  version: "1.0.21",
   git: "https://github.com/electronifie/meteor-servicebus.git"
 });
 
 Npm.depends({
-  "servicebus": "1.0.17"
+  "servicebus": "1.0.21"
 });
 
 Package.onUse(function(api) {
+  api.addFiles('server/servicebus-audit-extend.js', 'server');
   api.addFiles('server/servicebus.js', 'server');
 });
 
